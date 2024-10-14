@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Fetch_Rewards_2024</string>
+    <string name="sorted_rest">Sorted/REST</string>
+    <string name="sorted_local">Sorted/Local</string>
+    <string name="unsorted">Unsorted</string>
+    <string name="list_id"> List ID </string>
+    <string name="name"> Name  </string>
+    <string name="id">  ID </string>
+    <string name="database_is_empty_yet">Database is \nempty yet</string>
 </resources>
