@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/sortedRestFragmentId">
+
+    <fragment
+        android:id="@+id/sortedRestFragmentId"
+        android:name="com.android.fetch_rewards_2024.view.ui.sortedrest.SortedRestFragment"
+        android:label="fragment_sorted_rest"
+        tools:layout="@layout/fragment_sorted_rest" />
+    <fragment
+        android:id="@+id/sortedLocalFragmentId"
+        android:name="com.android.fetch_rewards_2024.view.ui.sortedlocal.SortedLocalFragment"
+        android:label="fragment_sorted_local"
+        tools:layout="@layout/fragment_sorted_local" />
+    <fragment
+        android:id="@+id/unsortedFragmentId"
+        android:name="com.android.fetch_rewards_2024.view.ui.unsorted.UnsortedFragment"
+        android:label="fragment_unsorted"
+        tools:layout="@layout/fragment_unsorted" />
+</navigation>

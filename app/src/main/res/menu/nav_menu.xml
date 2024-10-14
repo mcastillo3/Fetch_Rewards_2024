@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sortedRestFragmentId"
+        android:title="@string/sorted_rest"
+        android:icon="@drawable/ic_rest"/>
+    <item
+        android:id="@+id/sortedLocalFragmentId"
+        android:title="@string/sorted_local"
+        android:icon="@drawable/ic_local"/>
+    <item
+        android:id="@+id/unsortedFragmentId"
+        android:title="@string/unsorted"
+        android:icon="@drawable/ic_unsorted"/>
+
+</menu>
