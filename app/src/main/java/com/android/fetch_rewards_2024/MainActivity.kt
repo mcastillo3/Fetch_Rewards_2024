@@ -8,7 +8,6 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
-//    private lateinit var navController: NavController
     private val navController: NavController by lazy {
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.navHostFragMainAct) as NavHostFragment
@@ -19,10 +18,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setTheme(R.style.Theme_FetchRewards)
         setContentView(R.layout.activity_main)
-
-//        val navHostFragment =
-//            supportFragmentManager.findFragmentById(R.id.navHostFragMainAct) as NavHostFragment
-//        navController = navHostFragment.navController
 
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavMainAct)
         bottomNavigationView.setupWithNavController(navController)
