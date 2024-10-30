@@ -1,4 +1,4 @@
-# This is a take-home assessment for Fetch Rewards
+# This is an Android app showcasing API fetching, MVVM, Retrofit, Room, and Courotines
 
 Languages Used: Kotlin, Android XML, Groovy, SQL
 Tech Stack: MVVM
